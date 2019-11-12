@@ -70,7 +70,8 @@ to be added
 ## Vectors evaluation
 ### monolingual vectors 
 *Spearman's rho on enSimLex-999/ruSimLex-965*
-                     |  en  |  ru  |
+
+|    vectors         |  en  |  ru  |
 |--------------------|------|------|
 | CommonCrawl tokens | .371 | .308 |
 |--------------------|------|------|
@@ -89,7 +90,7 @@ to be added
 (English vectors mapped to the Russian semantic space by scripts from [MUSE project](https://github.com/facebookresearch/MUSE))
 on a bilingual glossary (1.5K word pairs), cosine similarity, model=100K
 
-                         P@1  |   P@5 |  P@10 |
+|        vectors      |  P@1  |   P@5 |  P@10 |
 |---------------------|-------|-------|-------|
 | CommonCrawl tokens  | 50%   | 74%   |  81%  |
 |---------------------|-------|-------|-------|
