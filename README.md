@@ -88,7 +88,7 @@ to be added
 
 ### bilingual vectors 
 (English vectors mapped to the Russian semantic space by scripts from [MUSE project](https://github.com/facebookresearch/MUSE))
-on a bilingual glossary (1.5K word pairs), cosine similarity, model=100K
+on a bilingual glossary (1.5K word pairs), contextual dissimilarity measure (csls\_knn), model=100K
 
 |        vectors      |  P@1  |   P@5 |  P@10 |
 |---------------------|-------|-------|-------|
