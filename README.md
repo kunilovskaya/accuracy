@@ -69,14 +69,14 @@ to be added
 ### monolingual vectors 
 *Spearman's rho on enSimLex-999/ruSimLex-965*
 
-    vectors         |  en  |  ru  |
---------------------|-----:|-----:|
- CommonCrawl tokens | .371 | .308 |
- wiki lempos        | .401 | .321 |
- wiki lempos func   | .413 | .311 |
- en2ru space        | .413 | .311 |
- rnc5papers lempos  |  --- |  --- |
- func               |  --- | .315 |
+    vectors         |   en  |   ru  |
+--------------------|------:|------:|
+ CommonCrawl tokens | 0.371 | 0.308 |
+ wiki lempos        | 0.401 | 0.321 |
+ wiki lempos func   | 0.413 | 0.311 |
+ en2ru space        | 0.413 | 0.311 |
+ rnc5papers lempos  |  ---- |  ---- |
+ func               |  ---- | 0.315 |
 
 ### bilingual vectors 
 (English vectors mapped to the Russian semantic space by scripts from [MUSE project](https://github.com/facebookresearch/MUSE))
