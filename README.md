@@ -8,7 +8,7 @@ use cross-linguistic text similarity to capture accuracy
 
 ## DATA
 542 hand-annotated targets in Russian to 105 English sources (all in the general domain of mass-media texts)
-The data was comes from [RusLTC](https://www.rus-ltc.org/static/html/about.html), which sources quality-labeled translations from a number of translation competitions and university exam settings.
+The data comes from [RusLTC](https://www.rus-ltc.org/static/html/about.html), which sources quality-labeled translations from a number of translation competitions and university exam settings.
 The translations were graded or ranked by either university translation teachers or by a panel of professional jurors in the contest settings. 
 
 
