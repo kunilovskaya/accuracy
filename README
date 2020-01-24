@@ -12,11 +12,11 @@ The data comes from [RusLTC](https://www.rus-ltc.org/static/html/about.html), wh
 The translations were graded or ranked by either university translation teachers or by a panel of professional jurors in the contest settings. 
 
 
-| labels |  words  | texts |
-|-------:|--------:|------:|
-| good   | 127,192 |  329  |
-|  bad   |  87,367 |  213  |
-| source |  46,218 |  105  |
+  labels |  words  | texts |
+ --------|--------:|------:|
+  good   | 127,192 |  329  |
+   bad   |  87,367 |  213  |
+  source |  46,218 |  105  |
 
 Pre-trained bilingual embeddings (en, ru and a concatenated file en-ru) can be downloaded [here](https://dev.rus-ltc.org/static/misc/accuracy/biling_vector_models.tar.gz).
 They were trained following the unsupervised approach suggested in [MUSE project](https://github.com/facebookresearch/MUSE) on *enwiki_upos_skipgram_300_5_2017* and *ruwikiruscorpora_upos_skipgram_300_2_2019* from WebVectores and RusVectores respectively.
@@ -69,15 +69,15 @@ to be added
 ### monolingual vectors 
 *Spearman's rho on enSimLex-999/ruSimLex-965*
 
-|    vectors         |  en  |  ru  |
-|-------------------:|-----:|-----:|
-| CommonCrawl tokens | .371 | .308 |
-| wiki lempos        | .401 | .321 |
-| wiki lempos func   | .413 | .311 |
-| wiki lempos func   |      |      |
-| en2ru space        | .413 | .311 |
-| rnc5papers lempos  |      |      |
-| func               |  --- | .315 |
+    vectors         |  en  |  ru  |
+--------------------|-----:|-----:|
+ CommonCrawl tokens | .371 | .308 |
+ wiki lempos        | .401 | .321 |
+ wiki lempos func   | .413 | .311 |
+ wiki lempos func   |      |      |
+ en2ru space        | .413 | .311 |
+ rnc5papers lempos  |      |      |
+ func               |  --- | .315 |
 
 ### bilingual vectors 
 (English vectors mapped to the Russian semantic space by scripts from [MUSE project](https://github.com/facebookresearch/MUSE))
