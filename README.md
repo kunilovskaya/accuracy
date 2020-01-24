@@ -74,9 +74,8 @@ to be added
  CommonCrawl tokens | .371 | .308 |
  wiki lempos        | .401 | .321 |
  wiki lempos func   | .413 | .311 |
- wiki lempos func   |      |      |
  en2ru space        | .413 | .311 |
- rnc5papers lempos  |      |      |
+ rnc5papers lempos  |  --- |  --- |
  func               |  --- | .315 |
 
 ### bilingual vectors 
