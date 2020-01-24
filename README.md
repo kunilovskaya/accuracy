@@ -67,7 +67,7 @@ to be added
 
 ## Vectors evaluation
 ### monolingual vectors 
-*Spearman's rho on enSimLex-999/ruSimLex-965*
+Spearman's rho on enSimLex-999/ruSimLex-965
 
     vectors         |   en  |   ru  |
 --------------------|------:|------:|
